@@ -1,0 +1,179 @@
+header{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+label.logo{
+    color: white;
+    font-size: 60px;
+    margin-left: 38%;
+    font-weight: bold;
+    line-height: 80px;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+h3, p{
+    text-align: center;
+}
+
+th, td, tr{
+    padding: 10px;
+    border: 2px solid #000000;
+}
+
+
+/* CSS to collapse the table when all rows are hidden */
+#ticketTable{
+    border-collapse: collapse;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 30%;
+}
+#ticketTable th{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    background-color: #ddd6d6;
+    
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    align-content: center;
+}
+#ticketTable td{
+    width: 300px;
+    margin: auto;
+    padding: 5px;    
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    align-content: center;
+} 
+
+/* CSS to hide rows without gaps */
+.hidden-row {
+    display: none;
+  }
+  
+  #ticketTable {
+    border-collapse: collapse;
+  }
+
+  button {
+    color: #FFF;
+    background-color: #428BCA;
+    border: 1px solid #357EBD;
+    height: 39px;
+    margin: 0;
+    padding: 6px 20px;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+button:hover {
+    background-color: #3276B1;
+    border-color: #285E8E;
+    cursor: pointer;
+}
+
+/* Media query for screens up to 428px (iPhone 12 Pro portrait width) */
+@media screen and (max-width: 428px) {
+    header label.logo {
+        font-size: 40px;
+        margin-left: 10%;
+    }
+
+    .container,
+    .container2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    form {
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+
+    table {
+        margin-right: 5%;
+    }
+
+    #ticketTable {
+        margin-left: 10%;
+    }
+
+    .form-control.success input,
+    .form-control.error input {
+        width: 80%;
+    }
+
+    select,
+    input[type=text] {
+        width: 80%;
+    }
+
+    button {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+/* Media query for screens up to 768px (iPad Mini portrait width) */
+@media screen and (max-width: 768px) {
+    header label.logo {
+        font-size: 40px;
+        margin-left: 10%;
+    }
+
+    .container,
+    .container2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    form {
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+
+    table {
+        margin-right: 5%;
+    }
+
+    #ticketTable {
+        margin-left: 10%;
+    }
+
+    .form-control.success input,
+    .form-control.error input {
+        width: 80%;
+    }
+
+    select,
+    input[type=text] {
+        width: 80%;
+    }
+
+    button {
+        margin-left: 10%;
+        width: 80%;
+    }
+}
+
+  
+
+
+  
+
+  
+  
+
+
+
